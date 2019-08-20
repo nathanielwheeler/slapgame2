@@ -1,7 +1,5 @@
-
-
-export default class Enemy {
-    constructor(name) {
+export default class Player {
+    constructor() {
         this.name = name
         this.health = {
             min: 0,
